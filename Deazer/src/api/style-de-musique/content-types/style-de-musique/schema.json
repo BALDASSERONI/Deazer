@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "style_de_musiques",
+  "info": {
+    "singularName": "style-de-musique",
+    "pluralName": "style-de-musiques",
+    "displayName": "style de musique"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "style_de_musique": {
+      "type": "string"
+    }
+  }
+}

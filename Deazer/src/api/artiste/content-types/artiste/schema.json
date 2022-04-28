@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artistes",
+  "info": {
+    "singularName": "artiste",
+    "pluralName": "artistes",
+    "displayName": "artiste",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomArtiste": {
+      "type": "string"
+    },
+    "artisteImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "musiques": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::musique.musique",
+      "inversedBy": "artistes"
+    }
+  }
+}
