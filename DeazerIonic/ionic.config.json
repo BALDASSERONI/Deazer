@@ -1,0 +1,7 @@
+{
+  "name": "Deazer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
